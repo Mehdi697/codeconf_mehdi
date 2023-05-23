@@ -16,7 +16,12 @@
         <li class="header"><a href="#">Speakers</a></li>
         <li class="header"><a href="#">Team</a></li>
         <li class="header"><a href="#">Contact</a></li>
-        <li class="header"><a href="#">Search</a></li>
+        <li class="header"><a href="#">
+          <form action="">
+            <input type="text">
+            <button>Search</button>
+          </form>
+        </a></li>
       </ul> 
   </nav>
   </header>
@@ -172,7 +177,62 @@
                                <p class="room">R2</p>
                               <p class="speaker_link"><a href="#"></a></p>
                             </div>
-
-    </section>
+                            
+                          </section>
+                          <section class="form">
+                            <h1 class="become_speaker">Become Speaker</h1>
+                            <h2 class="info">Do you have a topic that you like</h2>
+                            <p class="text_submit">Submit it for the next event by filling out the form below. Do not forget to specify the subject and the related keywords</p>
+                            
+                          <form action="">
+                            <label for="name">Nom:</label>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Mail" required>
+                            <label for="subject">subject:</label>
+                            <input type="subject" id="subject" name="subject" placeholder="Your subject" required>
+                            <label for="Keywords">Keywords:</label>
+                            <input type="Keywords" id="Keywords" name="Keywords" placeholder="Keywords" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="short details" required></textarea>
+                          <input type="submit" value="Send your subject">
+                          <p class="text_between"> or participate to the present event ...</p>
+                          <div class="ticket-section">
+                            <input type="button" value="Get Ticket">
+                            <p class="ticket-price">$199 USD</p>
+                          </div>
+                          </form>
+                        </section>
+                        <footer>
+                          <div class="footer-info">
+                            <h4>The Las Vegas Convention Center</h4>
+                            <p>3150 Paradise Rd, Las Vegas, NV 89109</p>
+                            <p>The Las Vegas Convention Center (LVCC), located adjacent to the Las Vegas Strip, encompasses approximately 3.2 million square feet with exhibit space of 2 million square feet and meeting space of nearly 250,000 square feet.</p>
+                            <p>Helpdesk Call-center<br>
+                            +1 702-892-0711 (speaker’s support)</p>
+                          </div>
+                          <div class="footer-sponsors">
+                            <h4>Sponsors</h4>
+                            <ul>
+                              <li class="logo"><img src="../dist/image/cisco.svg" alt="cisco_logo"></li>
+                              <li class="logo"><img src="../dist/image/amazon_s3.svg" alt="amazon_logo"></li>
+                              <li class="logo"><img src="../dist/image/nick.svg" alt="nickelodeon_logo"></li>
+                              <li class="logo"><img src="../dist/image/meetup.svg" alt="meetup_logo"></li>
+                              <li class="logo"><img src="../dist/image/stripe.svg" alt="stripe_logo"></li>
+                              <li class="logo"><img src="../dist/image/mailchimp.svg" alt="mailchimp_logo"></li>
+                            </ul>
+                          </div>
+                          <div class="footer-follow">
+                            <h4>Follow us</h4>
+                            <ul>
+                              <li>slack channel: #codeconf2023</li>
+                              <li> twitter: @codeconf2023</li>
+                            </ul>
+                          </div>
+                          <div class="footer-copyright">
+                            <p>&copy; 2022 CODECONF<br>
+                            Organised by WebeesMeetups.com</p>
+                          </div>
+                        </footer>                        
 </body>
 </html>
