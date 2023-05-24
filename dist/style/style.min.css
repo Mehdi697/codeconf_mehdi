@@ -1,1 +1,1 @@
-body{background-color:#7fffd4}header{background-color:#fff}footer{background-color:#fff}/*# sourceMappingURL=style.min.css.map */
+body{background-color:#7fffd4}header{background-color:#fff}footer{background-color:#fff}.card_container{display:grid;grid-template-columns:repeat(4, 1fr);grid-template-rows:repeat(3, 1fr);gap:10px}.card-pics{background-color:#ccc;padding:20px;text-align:center}/*# sourceMappingURL=style.min.css.map */
