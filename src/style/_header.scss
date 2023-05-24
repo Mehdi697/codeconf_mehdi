@@ -1,3 +1,18 @@
 header {
-  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 5rem; 
+    height: 5rem;
+  }
 }
+
+ul {
+      list-style: none;
+      display: flex;
+
+      li.header {
+        margin-left: 10px;
+      }
+  }

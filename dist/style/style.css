@@ -1,24 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Museolight";
+  src: url("webfonts/museo/museo300.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museonormal";
+  src: url("webfonts/museo/museo500.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museobold";
+  src: url("webfonts/museo/museo700.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: codeconf;
+  src: url("webfonts/codeconf-all/fonts/codeconf.woff") format("woff");
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 body {
-  background-color: aquamarine;
+  background-color: #f8f8f8;
 }
 
 header {
-  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 5rem;
+  height: 5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li.header {
+  margin-left: 10px;
 }
 
 footer {
   background-color: white;
 }
 
+h4 {
+  font-family: "League Spartan", sans-serif;
+}
+
+.txt-footer {
+  font-family: "League Spartan", sans-serif;
+}
+
 .card_container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  width: 90%;
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
+  margin: 0 auto;
 }
 
 .card-pics {
-  background-color: #ccc;
   padding: 20px;
-  text-align: center;
+  text-align: left;
+}
+
+.card-pics img {
+  width: 100%;
+  height: auto;
+}
+
+.card-txt {
+  margin-left: 8px;
+}
+
+.speaker_name {
+  color: #5444b7;
+  white-space: pre-line;
+}
+
+.speaker_city {
+  color: #b5b0c1;
 }/*# sourceMappingURL=style.css.map */
