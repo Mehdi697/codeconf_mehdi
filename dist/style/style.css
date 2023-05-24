@@ -19,12 +19,102 @@
   font-style: normal;
 }
 @font-face {
-  font-family: codeconf;
-  src: url("webfonts/codeconf-all/fonts/codeconf.woff") format("woff");
+  font-family: "codeconf";
+  src: url("fonts/codeconf.ttf") format("truetype"), url("fonts/codeconf.woff") format("woff");
   font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "codeconf" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-burger:before {
+  content: "\e93e";
+}
+
+.icon-schedule:before {
+  content: "\e93f";
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+.icon-loop:before {
+  content: "\e940";
+  color: #FF3800;
+}
+
+.icon-contact:before {
+  content: "\e941";
+}
+
+.icon-event:before {
+  content: "\e942";
+}
+
+.icon-home:before {
+  content: "\e943";
+  color: #FF3800;
+}
+
+.icon-card:before {
+  content: "\e944";
+}
+
+.icon-paypal:before {
+  content: "\e945";
+  color: #0085D3;
+}
+
+.icon-tw:before {
+  content: "\e946";
+}
+
+.icon-slack:before {
+  content: "\e947";
+}
+
+.icon-heart_full:before {
+  content: "\e948";
+}
+
+.icon-heart_line:before {
+  content: "\e949";
+}
+
+.icon-square_full:before {
+  content: "\e94a";
+}
+
+.icon-square_line:before {
+  content: "\e94b";
+}
+
+.icon-spade_full:before {
+  content: "\e94c";
+}
+
+.icon-spade_line:before {
+  content: "\e94d";
+}
+
+.icon-clover_full:before {
+  content: "\e94e";
+}
+
+.icon-clover_line:before {
+  content: "\e94f";
+}
+
 body {
   background-color: #f8f8f8;
 }
@@ -33,25 +123,58 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+header a {
+  font-family: "museo", sans-serif;
 }
 header img {
   width: 5rem;
   height: 5rem;
 }
 
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
 ul {
   list-style: none;
+  padding: 0;
   display: flex;
+  gap: 1rem;
+  margin: 0;
 }
-ul li.header {
-  margin-left: 10px;
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #353336;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.schedule {
+  color: #4b436a;
+}
+
+.loop {
+  font-size: 0;
+}
+.loop span {
+  font-size: 1rem;
 }
 
 footer {
-  background-color: white;
+  background-color: #343237;
 }
 
 h4 {
+  color: #0dbfc1;
   font-family: "League Spartan", sans-serif;
 }
 

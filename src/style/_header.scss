@@ -2,17 +2,50 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  
+  a {
+    font-family: "museo", sans-serif;
+  }
+
   img {
-    width: 5rem; 
+    width: 5rem;
     height: 5rem;
   }
 }
 
-ul {
-      list-style: none;
-      display: flex;
+nav {
+  display: flex;
+  gap: 1rem;
+}
 
-      li.header {
-        margin-left: 10px;
-      }
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #353336;
+}
+
+.icon {
+  margin-right: 5px;
+}
+.schedule {
+  color: #4b436a;
+}
+
+.loop {
+  font-size: 0;
+
+  span {
+    font-size: 1rem;
   }
+}
