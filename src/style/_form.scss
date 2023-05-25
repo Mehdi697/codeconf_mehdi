@@ -1,72 +1,17 @@
-.form {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    justify-content: center;
-    align-items: center;
+form {
+  background-color: aqua;
+  font-family: 'league spartan';
+  margin: 0 auto;
+  max-width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem;
+ }
+
+ input.action {
+  display: grid;
+}
+.label {
+    color: blueviolet;
   }
-  
-  .become_speaker {
-    grid-column: 1 / -1;
-    text-align: center;
-  }
-  
-  .info {
-    grid-column: 1 / -1;
-    text-align: center;
-  }
-  
-  .text_submit {
-    grid-column: 1 / -1;
-    text-align: center;
-  }
-  
-  form {
-    grid-column: 2 / 7;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-  }
-  
-  label {
-    width: 100%;
-    display: none;
-  }
-  input,
-  textarea {
-    width: 100%;
-  }
-  
-  .text_between {
-    grid-column: 1 / -1;
-    text-align: center;
-  }
-  
-  .ticket-section {
-    grid-column: 3 / 6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  input[type="button"] {
-    width: 100%;
-  }
-  
-  /* Media query for small screens */
-  @media screen and (max-width: 37.5rem) {
-    .form {
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(8, 1fr);
-    }
-  
-    form {
-      grid-column: 1 / -1;
-    }
-  
-    .ticket-section {
-      grid-column: 1 / -1;
-    }
-  }
-  
-// design + mis en forme du formulaire à faire

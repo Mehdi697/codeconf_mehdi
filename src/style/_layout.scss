@@ -3,8 +3,8 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   margin-top: 30px;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .card-pics {
@@ -13,16 +13,15 @@
 }
 
 .card-pics img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .card_pattern {
   display: block;
-  justify-content: center;
-  margin-top: -25px;
-  margin-left: 100px;
-  margin-right: -2px;
+  justify-content: right;
+  margin-top: -50px;
 }
 
 .card-txt {
