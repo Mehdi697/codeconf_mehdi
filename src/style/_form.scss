@@ -9,9 +9,7 @@ form {
   padding: 2rem;
  }
 
- input.action {
+[class^="field"]{
   display: grid;
+  input{order: 1;}
 }
-.label {
-    color: blueviolet;
-  }

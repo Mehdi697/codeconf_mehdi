@@ -237,18 +237,27 @@
   <h2 class="info">Do you have a topic that you'd like to share?</h2>
   <p class="text_submit">Submit it for the next event by filling out the form below. Don't forget to specify the subject and related keywords.</p>
   <form action="">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" required>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Your Email" required>
-    <label for="subject">Subject:</label>
-    <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
-    <label for="keywords">Keywords:</label>
-    <input type="text" id="keywords" name="keywords" placeholder="Keywords" required>
+    <div class="field_name">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <label for="name">Name:</label>
+    </div>
+    <div class="field_email">
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <label for="email">Email:</label>
+    </div>
+    <div class="field_subject">
+      <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
+      <label for="subject">Subject:</label>
+    </div>
+    <div class="field_keywords">
+      <input type="text" id="keywords" name="keywords" placeholder="Keywords" required>
+      <label for="keywords">Keywords:</label>
+    </div>
     <label for="message">Message:</label>
     <textarea id="message" name="message" placeholder="Brief description" required></textarea>
     <input type="submit" value="Send Your Subject">
   </form>
+
   <p class="text_between">Or participate in the current event...</p>
   <div class="ticket-section">
     <input type="button" value="Get Ticket">

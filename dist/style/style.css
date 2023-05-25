@@ -292,10 +292,9 @@ form {
   padding: 2rem;
 }
 
-input.action {
+[class^=field] {
   display: grid;
 }
-
-.label {
-  color: blueviolet;
+[class^=field] input {
+  order: 1;
 }/*# sourceMappingURL=style.css.map */
