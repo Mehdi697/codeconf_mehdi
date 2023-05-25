@@ -23,18 +23,24 @@
       }
     }
   }
-  
+
   .teaser_title, .teaser_txt {
     grid-column: 6/10;
     color: #f8f8f8;
-    text-transform: uppercase;
   }
+  
   .teaser_title {
     align-self: end;
     font-family: 'Museobold', sans-serif;
     white-space: nowrap;
+    font-size: 38.5px;
+    text-transform: uppercase;
   }
   .teaser_txt {
     align-self: start;
     font-family: 'Museonormal', sans-serif;
+    font-size: larger;
+    margin-top: -20px;
   }
+
+  

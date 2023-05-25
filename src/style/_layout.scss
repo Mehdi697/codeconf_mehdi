@@ -17,7 +17,16 @@
   height: auto;
 }
 
+.card_pattern {
+  display: block;
+  justify-content: center;
+  margin-top: -25px;
+  margin-left: 100px;
+  margin-right: -2px;
+}
+
 .card-txt {
+  margin-top: -25px;
   margin-left: 12px;
   font-family: 'Museonormal', sans-serif;
 }
@@ -36,3 +45,4 @@
 .speaker_theme, .speaker_txt, .time, .room, .speaker_link {
   display: none;
 }
+
