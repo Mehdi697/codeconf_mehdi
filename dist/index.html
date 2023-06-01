@@ -221,10 +221,13 @@
 </section>
 
 <section class="form">
-  <h1 class="become_speaker">Become a Speaker</h1>
-  <h2 class="info">Do you have a topic that you'd like to share?</h2>
-  <p class="text_submit">Submit it for the next event by filling out the form below. Don't forget to specify the subject and related keywords.</p>
-  <form action="">
+  <div class="container">
+    <h1 class="become_speaker">Become a Speaker</h1>
+    <h2 class="info">Do you have a topic that you'd like to share?</h2>
+    <p class="text_submit">Submit it for the next event by filling out the form below. Don't forget to specify the subject and related keywords.</p>
+  </div>
+
+  <form action="form">
     <div class="field_name">
       <input type="text" id="name" name="name" placeholder="Your Name" required>
       <label for="name">Name:</label>
@@ -241,10 +244,13 @@
       <input type="text" id="keywords" name="keywords" placeholder="Keywords" required>
       <label for="keywords">Keywords:</label>
     </div>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" placeholder="Brief description" required></textarea>
+    <div class="field_message">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Brief description" required></textarea>
+    </div>
     <input type="submit" value="Send Your Subject">
   </form>
+</section>
 
   <p class="text_between">Or participate in the current event...</p>
   <div class="ticket-section">
