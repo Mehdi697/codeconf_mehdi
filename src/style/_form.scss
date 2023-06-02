@@ -20,7 +20,10 @@ form {
   margin: 0 auto;
   max-width: 50rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
   gap: 3rem;
   padding: 2rem;
   align-items: center;
@@ -76,7 +79,7 @@ input[type="submit"] {
   }
 
   form {
-    grid-template-columns: 1fr;
+
   }
 
   input[type="submit"] {
