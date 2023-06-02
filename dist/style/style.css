@@ -403,19 +403,80 @@ a {
 }
 
 footer {
+  padding-top: 5rem;
   background-color: #343237;
+  font-family: "museonormal", sans-serif;
+  width: 100vw;
+}
+
+.footer-grid {
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  margin: 0 auto;
+  grid-template-rows: auto;
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
 }
 
-h4 {
-  color: #0dbfc1;
-  font-family: "League Spartan", sans-serif;
+.footer-info {
+  grid-column: 1/4;
 }
 
-.txt-footer {
-  font-family: "League Spartan", sans-serif;
+footer h4 {
+  color: #00c3c5;
+}
+
+.footer-image {
+  grid-column: 4/7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.footer-follow {
+  grid-column: 1/4;
+}
+
+.footer-texte {
+  grid-column: 4/7;
+}
+
+.footer-image img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+footer .logo {
+  filter: brightness(0) invert(1);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-follow ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-texte {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+footer p, li, .txt-light, .txt-bold, strong {
+  color: #f8F8F8;
+}
+
+.txt-color {
+  color: #dec9b2;
+}
+
+.txt-bold {
+  font-weight: bold;
 }
 
 .card_container {
@@ -619,6 +680,11 @@ input[type=submit] {
     grid-column: unset;
   }
 }
+.ticket-button {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
 button {
   display: flex;
   justify-content: center;
@@ -645,6 +711,6 @@ button {
 }
 
 .ticket-price {
-  display: block;
-  background-color: aqua;
+  background-color: black;
+  color: #f8f8f8;
 }/*# sourceMappingURL=style.css.map */

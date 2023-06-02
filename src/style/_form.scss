@@ -81,6 +81,11 @@ input[type="submit"] {
   }
 }
 
+.ticket-button {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
 button {
   display: flex;
   justify-content: center;
@@ -107,6 +112,6 @@ button {
 }
 
 .ticket-price {
-  display: block;
-  background-color: aqua;
+  background-color: black;
+  color: #f8f8f8;
 }
