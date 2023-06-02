@@ -5,7 +5,7 @@ header {
   margin: 0 auto;
   width: 90%;
   
-  a {
+ .a {
     font-family: "museo", sans-serif;
   }
 
@@ -28,7 +28,7 @@ ul {
   margin: 0;
 }
 
-a {
+header.a {
   text-decoration: none;
   display: flex;
   align-items: center;
