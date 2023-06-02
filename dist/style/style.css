@@ -467,7 +467,7 @@ footer .logo {
   gap: 5rem;
 }
 
-footer p, li, .txt-light, .txt-bold, strong {
+footer p, li, .txt-light, .txt-bold, footer strong {
   color: #f8F8F8;
 }
 

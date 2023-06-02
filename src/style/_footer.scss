@@ -52,19 +52,21 @@ footer .logo{
 display: flex;
 flex-direction: row;
  }
+
  .footer-texte{
   display: flex;
 flex-direction: row;
 gap: 5rem;
  }
-footer p, li, .txt-light, .txt-bold, strong {
+
+footer p, li, .txt-light, .txt-bold, footer strong {
   color: #f8F8F8;
  }
 
- .txt-color{
+.txt-color{
   color: #dec9b2;
  }
 
- .txt-bold {
+.txt-bold {
   font-weight: bold;
  }
