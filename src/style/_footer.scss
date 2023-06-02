@@ -1,5 +1,8 @@
 footer {
   background-color: #343237;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 h4 {
