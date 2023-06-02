@@ -618,4 +618,33 @@ input[type=submit] {
     justify-self: start;
     grid-column: unset;
   }
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3600;
+  color: #f8f8f8;
+  border-radius: 200px;
+  border-style: inset;
+  border: none;
+  padding: 20px 28px;
+  margin: 0 auto;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0 0 30px 5px rgba(255, 54, 0, 0.5);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.icon-paypal {
+  padding-left: 15px;
+}
+
+.ticket-price {
+  display: block;
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */
